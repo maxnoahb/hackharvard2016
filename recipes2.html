@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet"/>
+        <title>KMKitchen</title>
+    </head>
+    
+    <body>
+        <h1>KMKitchen</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>Recipes by ingredient</li>
+            <li><a href="map.html">Local food near me</a></li>
+        </ul>
+    </body>
+</html>
+
+<html>
+	<div>
+       <script type="text/javascript">
+//             function httpGetAsync(theUrl, callback)
+// {
+//     var xmlHttp = new XMLHttpRequest();
+//     xmlHttp.onreadystatechange = function() { 
+//         if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+//             callback(xmlHttp.responseText);
+//     }
+//     xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+//     xmlHttp.send(null);
+// }
+            var URL = "http://www.recipepuppy.com/api/?i=onions,garlic&q=omelet&p=3";
+            var W = window.open(URL);    
+            W.window.print(); 
+
+
+        </script>
+    
+        
+	</div>
+</html>

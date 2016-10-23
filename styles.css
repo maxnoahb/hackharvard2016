@@ -1,0 +1,38 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Final Project
+ *
+ * Global CSS.
+ */
+
+body {
+    background: white;
+    font-family: garamond;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+	text-align: center;
+	font-family: garamond;
+}
+
+.jumbotron{
+    background-color:#13599C;
+    color:white;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.nav-tabs {
+    margin-bottom: 0;
+}
+
