@@ -26,7 +26,7 @@
 			<?php foreach($data["hits"] as $hit):?>
 				<li>
 				<div style = "word-wrap: break-word; width: 250px">
-					<h1><font size="4"><?php echo $hit["recipe"]["label"] ?></font></h1>
+					<h1><font size="4"><?php echo "<a href='" .$hit["recipe"]["url"]."'> ".$hit["recipe"]["label"]." </a>" ?></font></h1>
 				</div>
 				<img src="<?php echo $hit["recipe"]["image"] ?>" width="256" height="256"></img>
 				</li>
